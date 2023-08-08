@@ -19,7 +19,7 @@
   1. Clone this repository to your local machine:
    ` git clone https://github.com/TheMightyHet/StoreSim.git `
   2. Navigate to the project directory:
-   ` cd StoreSim `
+   ` cd StoreSim/src `
 
 ## Usage
 ### Running the Application
