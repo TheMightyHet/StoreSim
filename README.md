@@ -17,25 +17,25 @@
 
 ### Installation
   1. Clone this repository to your local machine:
-   ``` git clone https://github.com/TheMightyHet/StoreSim.git ```
+   ` git clone https://github.com/TheMightyHet/StoreSim.git `
   2. Navigate to the project directory:
-   ``` cd StoreSim ```
+   ` cd StoreSim `
 
 ## Usage
 ### Running the Application
   To run the Store Shopping Application, follow these steps:
   
   1. Compile the Java source files:
-     ``` javac Store.java ```
+     ` javac Store.java `
       
   2. Run the application with the desired cart items as command-line arguments. For example:
-     ``` java Store A A B C D ```
+     ` java Store A A B C D `
 
 ### Example Input and Output
 Example input:
-``` java Store A A B ```
+` java Store A A B `
 Example output:
-``` Total Price: 130 ```
+`Total Price: 130 `
 
 ## Deals
 The Store Shopping Application offers the following dynamic discount deals and rules:
