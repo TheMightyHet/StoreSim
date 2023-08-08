@@ -24,9 +24,11 @@
 ## Usage
 ### Running the Application
   To run the Store Shopping Application, follow these steps:
-    1. Compile the Java source files:
-      ``` javac Store.java ```
-    2. Run the application with the desired cart items as command-line arguments. For example:
+  
+  1. Compile the Java source files:
+     ``` javac Store.java ```
+      
+  2. Run the application with the desired cart items as command-line arguments. For example:
      ``` java Store A A B C D ```
 
 ### Example Input and Output
