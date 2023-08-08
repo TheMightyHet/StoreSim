@@ -36,7 +36,7 @@ Example output:
 ``` Total Price: 130 ```
 
 ## Deals
-The Store Shopping Application offers the following dynamic discount rules:
+The Store Shopping Application offers the following dynamic discount deals and rules:
   - **DealAC**: If two "A" products and one "C" product are purchased, the first "C" product is half-price.
   - **DealD**: When purchasing two "D" products, the third "D" product is free.
 
