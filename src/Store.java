@@ -35,7 +35,8 @@ public class Store {
      */
     private void initializeDeals() {
         deals.put("DealAC", new DealAC());
-        //deals.put("DealD", new DealD());
+        deals.put("DealD", new DealD());
+        deals.put("DealDE", new DealDE());
     }
 
     /**
@@ -69,6 +70,11 @@ public class Store {
 
         return totalPrice;
     }
+
+
+
+
+    
 
     /**
      * The entry point of the program. Parses command-line arguments and calculates the total price.

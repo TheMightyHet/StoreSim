@@ -19,10 +19,10 @@
         // Count the occurrences of A and C products in the cart
         for (Product product : cart.getProducts()) {
             if (product.getName().equals("A")) {
-                aCount++;
+                ++aCount;
             }
-            if (product.getName().equals("C")) {
-                cCount++;
+            else if (product.getName().equals("C")) {
+                ++cCount;
             }
         }
 
@@ -32,10 +32,7 @@
         // Check if the conditions for the deal are met
         if (aCount >= 2 && cCount >= 1) {
             newTotalPrice = totalPrice - (int)(cart.getProductPrice("C") / 2);
-        }
-        else {
-            // If the deal conditions are not met, return the original total price
-            return totalPrice;
+            return newTotalPrice;
         }
 
         //Deals work multiple times per Cart
@@ -44,12 +41,9 @@
             // Calculate the multiplier for the deal based on available C products and A pairs
             int dealMultiplier = cCount - (int)(aCount / 2) < 0 ? cCount : (int)(aCount / 2);
             newTotalPrice = totalPrice - dealMultiplier * (int)(cart.getProductPrice("C") / 2);
-        }
-        else {
-            // If the deal conditions are not met, return the original total price
-            return totalPrice;
+            return newTotalPrice;
         }*/
 
-        return newTotalPrice;
+        return totalPrice;
     }
 }
