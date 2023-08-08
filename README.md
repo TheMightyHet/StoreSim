@@ -41,6 +41,7 @@ Example output:
 The Store Shopping Application offers the following dynamic discount deals and rules:
   - **DealAC**: If two "A" products and one "C" product are purchased, the first "C" product is half-price.
   - **DealD**: When purchasing two "D" products, the third "D" product is free.
+  - **DealDE**: If a "D" and an "E" product is in the same shopping car, the buyer will have to pay +130% of the total price.
 
 ## Extending the Application
 The application is designed with extensibility in mind. To add new products or deals, follow these steps:
